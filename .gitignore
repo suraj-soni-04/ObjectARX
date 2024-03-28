@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# customs
+Exercise-1\x64
+Exercise-1\Exercise-1\x64
+.gitignore
