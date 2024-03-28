@@ -1,14 +1,18 @@
+// Exercise-2.cpp : Defines the initialization routines for the DLL.
+//
+
 #include "pch.h"
 #include "framework.h"
 #include "arxHeaders.h"
 
-#ifdef _DEBUG
+
+/*#ifdef _DEBUG
 #define new DEBUG_NEW
-#endif
+#endif*/
 
 void MyCommand()
 {
-	acutPrintf(_T("\nHello User!!!"));
+	acutPrintf(_T("Hello AutoCAD users..."));
 }
 
 
@@ -34,3 +38,4 @@ acrxEntryPoint(AcRx::AppMsgCode Msg, void* pkt)
 	}
 	return AcRx::kRetOK;
 }
+
