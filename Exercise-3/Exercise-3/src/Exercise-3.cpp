@@ -8,7 +8,7 @@
 
 static void Greetings()
 {
-	acutPrintf(_T("\nGreetings function called!"));
+	acutPrintf(_T("\n Greetings function called!"));
 }
 
 extern "C" AcRx::AppRetCode acrxEntryPoint(AcRx::AppMsgCode msg, void* pkt)
