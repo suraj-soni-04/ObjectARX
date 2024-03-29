@@ -8,7 +8,7 @@
 
 void MyCommand()
 {
-	acutPrintf(_T("\nHello User!!!"));
+	acutPrintf(_T("\nHello User!!!!"));
 }
 
 
